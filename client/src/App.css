@@ -54,19 +54,40 @@ body {
   border-radius: 10px;
 }
 #splash-screen {
-  background-image: linear-gradient(to bottom, #b8b808, #636723);
-  color: white;
-  font-size: 5vw;
+  background-image: linear-gradient(to bottom, #FFFFFF, #2d3644);
+  color: #9999FF;
+  font-size: 2vw;
   border-color: black;
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
   height:70%;
   text-align: center;
   vertical-align: center;
+}
+
+.splash-screen-button {
+  margin-bottom: 10px;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #9999ff;
+  text-align: center;
+  border: 1px #9999ff;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.developer{
+  position: relative;
+  top: 15%;
+  font-size: small;
+  color: black;
 }
 
 #edit-toolbar {
@@ -115,24 +136,39 @@ body {
 #top5-statusbar {
   position: absolute;
   left: 0%;
-  top: 90%;
+  top: -2%;
   width: 100%;
   height: 10%;
-  background-color: lightsalmon;
+  background-color: #a0a0a0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 36pt;
 }
 
+.navigation-tool{
+  top: 10%;
+  left: 1%;
+  align-items: center;
+  word-spacing: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.padding{
+  padding-right: 20px;
+}
+
 #list-selector-heading {
   position: absolute;
   left: 0%;
-  top: 0%;
+  bottom: -10%;
   width: 100%;
-  height: 10%;
+  height: 5%;
   text-align: center;
-  font-size: 24pt;
+  font-size: 20pt;
   font-weight: bold;
   display: flex;
   align-items: center;
